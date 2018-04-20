@@ -186,6 +186,10 @@ html {
     margin-right: 10px;
 }
 
+.margin-5 {
+	margin: 0px 5px;
+}
+
 .margin-sm {
 	margin: 7px 2px;
 }
@@ -242,12 +246,7 @@ html {
 	line-height: 25px;
 }
 
-.username {
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.hover-dark-blue: hover {
+.hover-dark-blue:hover {
 	background-color: #3b5ca0;
 }
 
@@ -260,6 +259,7 @@ html {
 
 .top-bar-img {
 	display: inline-flex;
+	cursor: pointer;
 }
 
 .main-container {
@@ -301,7 +301,7 @@ html {
     padding-right: 4px;
 }
 
-.menu-item:hover{
+.menu-item:hover, .stories-item:hover{
 	cursor: pointer;
 	background-color: #f6f7f9;
 }
@@ -381,6 +381,7 @@ img.menu-item-right {
 }
 
 .status-image {
+	cursor: pointer;
 	margin-right: 10px;
 }
 
@@ -432,6 +433,10 @@ img.menu-item-right {
 	position: absolute;
 	bottom: -11px;
 	left: 50%;
+}
+
+.post-comments-info {
+	cursor: pointer;
 }
 
 .post-content > img:hover {
@@ -608,7 +613,7 @@ img.menu-item-right {
 }
 
 .slider-imgs {
-	margin: 0 13.5px;
+	margin: 0 14px 0 12px;
 	height: 100%;
 	border-bottom: 1px solid #dfe0e2;
 }
