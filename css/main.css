@@ -39,6 +39,10 @@ html {
 	font-weight: bold;
 }
 
+.f-light {
+	font-weight: lighter;
+}
+
 .f-blue {
 	color: #365899;
 }
@@ -108,6 +112,11 @@ html {
 	width: 32px;
 }
 
+.wh-34 {
+	height: 34px;
+	width: 34px;
+}
+
 .wh-40 {
 	height: 40px;
 	width: 40px;
@@ -121,6 +130,11 @@ html {
 .w-100 {
 	width: 100%;
 }
+
+.h-100 {
+	height: 100%;
+}
+
 .round {
 	border-radius: 50%;
 }
@@ -231,6 +245,10 @@ html {
 .username {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.hover-dark-blue: hover {
+	background-color: #3b5ca0;
 }
 
 .delimiter {
@@ -548,4 +566,119 @@ img.menu-item-right {
 .stories-item > img {
 	padding: 1px;
 	border: 2px solid #79a6ff;
+}
+
+.right-fixed {
+	position: fixed;
+    height: 100%;
+    width: 205px;
+    top: 42px;
+    right: 0px;
+    overflow-y: scroll; 
+	padding: 5px 0;
+    background-clip: padding-box;
+    background-color: #e9ebee;
+    border-left: 1px solid #cccccc;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.padding-8 {
+	padding: 8px;
+}
+
+.horizontal-items-slider {
+	position: relative;
+	height: 60px;
+}
+
+.horizontal-items-slider > .slider-buttons {
+	width: 8px;
+	height: 12px;
+	position: absolute;
+	top: 20px;
+}
+
+.left-5 {
+	left: 5px;
+}
+
+.right-5 {
+	right: 5px;
+}
+
+.slider-imgs {
+	margin: 0 13.5px;
+	height: 100%;
+	border-bottom: 1px solid #dfe0e2;
+}
+
+.slider-imgs > img {
+	margin: 0 5px;
+	width: 50px;
+	height: 50px;
+}
+
+.contact-box {
+	padding: 4px 0 4px 8px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.contact-box:hover {
+	background-color: #dddfe2;
+}
+
+.contact-box > .contact-name {
+	padding-left: 8px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.contact-online {
+	position: absolute;
+	right: 12px;
+	font-size: 10px;
+}
+
+.online-circle {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #42b72a;
+}
+
+.contact-lower-bar {
+	position: fixed;
+	bottom: 0;
+	height: 31px;
+	width: 205px;
+	background-color: #f6f7f9;
+	padding: 0 98px 0 28px;
+}
+
+.contact-lower-bar > input {
+	background-color: transparent;
+	height: 100%;
+	padding: 0;
+}
+
+.left-img {
+	position: absolute;
+	left: 8px;
+	top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 13px #f5f5f5;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 33px #bdbdbd;
 }
