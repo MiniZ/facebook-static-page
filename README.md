@@ -1,2 +1,5 @@
-# facebook-static-page
+# Facebook static page
 Javascript midterm project
+
+## Author
+Anano Bodokia
