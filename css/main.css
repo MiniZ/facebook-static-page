@@ -674,6 +674,16 @@ img.menu-item-right {
 	top: 10px;
 }
 
+.minimized-chat.contact-lower-bar {
+	display: none;
+    right: 15px;
+    width: 289px;
+}
+
+.minimized-chat > span{
+	line-height: 25px;
+}
+
 ::-webkit-scrollbar {
   width: 2px;
 }
@@ -691,6 +701,9 @@ img.menu-item-right {
 @media only screen and (max-width: 1250px) {
 	.chat {
 		display: none;
+	}
+	.minimized-chat.contact-lower-bar {
+		display: block;
 	}
 	.main-container {
 		padding-right: 0;
