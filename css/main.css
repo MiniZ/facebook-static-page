@@ -687,3 +687,49 @@ img.menu-item-right {
   border-radius: 2px;
   -webkit-box-shadow: inset 0 0 33px #bdbdbd;
 }
+
+@media only screen and (max-width: 1250px) {
+	.chat {
+		display: none;
+	}
+	.main-container {
+		padding-right: 0;
+	}
+	.menu-content {
+		margin-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 1020px) {
+	.ads {
+		display: none;
+	}
+	.menu-content {
+		width: auto;
+	}
+	.inner {
+		margin-left: 20px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.search-bar {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.left-info {
+		display: none;
+	}
+	.inner-center, .inner {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.search-bar {
+		width: 150px;
+	}
+}
+
